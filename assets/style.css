@@ -1357,7 +1357,7 @@ button.navbar-toggler:focus {
   font-size: 6rem;
   text-transform: uppercase;
   font-weight: 900;
-  color: var(--clr-white);
+  color: var(--clr-def);
 }
 
 .hero-single .hero-content .hero-sub-title {
@@ -1368,7 +1368,7 @@ button.navbar-toggler:focus {
   font-size: 2rem;
   line-height: 38px;
   margin-bottom: 4rem;
-  color: var(--clr-white);
+  color: var(--clr-def);
 }
 
 .hero-single .hero-content .hero-btn {
@@ -1383,6 +1383,7 @@ button.navbar-toggler:focus {
   line-height: 5rem;
   margin-bottom: 3rem;
   font-weight: 900;
+  color: var(--clr-def);
 }
 
 .hero-sub-title {
@@ -1507,6 +1508,7 @@ button.navbar-toggler:focus {
 
 .hero-2-section .hero-2-single .hero-2-content .hero-2-desc p {
   margin-bottom: 3.8rem;
+  color: var(--clr-white);
 }
 
 .hero-2 img {
