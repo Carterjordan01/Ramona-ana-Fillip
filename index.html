@@ -30,7 +30,7 @@
 <body id="bdy">
 
     <!-- Start PreLoader -->
-    <div class="se-pre-con"></div>
+    <!-- <div class="se-pre-con"></div> -->
     <!-- End PreLoader-->
 
     <!-- Start header -->
@@ -40,9 +40,9 @@
                 <div class="container g-0">
                     <a class="navbar-brand" href="index.html">
                         <img src="assets/img/icon/faveicon1.png" class="logo-display" alt="thumb"
-                            style="width: 250px; height: 120px;">
+                            style="width: 180px; height: 60px;">
                         <img src="assets/img/icon/faveicon1.png" class="logo-scrolled" alt="thumb"
-                            style="width: 250px; height: 120px;">
+                            style="width: 180px; height: 60px;">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -66,20 +66,26 @@
                                 <a class="nav-link smooth-menu" href="#gallery"> Galerie </a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link smooth-menu" href="#localisation"> Localisation </a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link smooth-menu" href="#contact"> Contact </a>
                             </li>
                         </ul>
-                    </div> <!-- navbar-collapse.// -->
-                </div> <!-- container -->
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
+
     <!-- End header -->
 
     <main class="main">
 
         <!-- Start Slider -->
         <div id="home" class="hero-2-section bg pos-rel" style="position: relative; overflow: hidden; min-height: 600px;">
+            <!-- Début du dégradé linéaire au-dessus de la vidéo -->
+            <div style="position: absolute; top: 80px; left: 0; width: 100vw; height: 100%; z-index: 2; pointer-events: none; background: linear-gradient(180deg, rgba(128, 137, 137, 0.7) 0%, rgba(147, 193, 207, 0.2) 60%, rgba(113, 188, 196, 0) 100%);"></div>
             <video autoplay muted loop playsinline poster="assets/img/bg/bg-gallery-1.png" style="position: absolute; top: 80px; left: 0; width: 100vw; height: 100%; object-fit: cover; z-index: 1; opacity: 1;">
                 <source src="assets/img/video/video-2.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la vidéo HTML5.
@@ -164,7 +170,7 @@
         <!-- End About Us -->
 
         <!-- Start Categories -->
-        <div id="cate" class="cate-area cate-4 pos-rel de-padding">
+        <div id="cate" class="cate-area cate-4 pos-rel de-padding" style="min-height: 800px;">
             <div class="c-sp-1"></div>
             <div class="c-sp-2"></div>
             <div class="container">
@@ -227,6 +233,7 @@
                 </div>
             </div>
         </div>
+    </div>
         <!-- End Categories -->
 
         <!-- Start Products -->
@@ -989,7 +996,7 @@
         <!-- End Countdown -->
 
         <!-- Start Partner -->
-        <div class="map-area de-padding">
+        <div class="map-area de-padding" id="localisation">
             <div class="container">
                 <div class="site-title text-center" data-aos="fade-up" data-aos-duration="800">
                     <h2>Notre Localisation</h2>
@@ -1035,7 +1042,7 @@
                                             <div class="addr-desc">
                                                 <h5>Téléphone</h5>
                                                 <p class="mb-0">
-                                                    +10468 07 94 05
+                                                    0468 07 94 05
                                                 </p>
                                             </div>
                                         </div>
@@ -1205,11 +1212,11 @@
                                     <ul>
                                         <li>
                                             <strong>Email:</strong>
-                                            ilipramonaana@yahoo.com
+                                            filipramonaana@yahoo.com
                                         </li>
                                         <li>
                                             <strong>Phone:</strong>
-                                            <a href="#">+10468 07 94 05</a>
+                                            <a href="#"> 0468 07 94 05</a>
                                         </li>
                                         <li>
                                             <div class="footer-sub">
