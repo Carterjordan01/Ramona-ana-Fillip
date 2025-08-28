@@ -424,8 +424,9 @@
 		 ===============================================*/
 		
 		$(window).on('load', function() {
-			// Animate loader off screen
-			$(".se-pre-con").fadeOut("slow");
+			setTimeout(function() {
+				$(".se-pre-con").fadeOut("slow");
+			}, 50000); // 50 seconds
 		});
 
 		/* ==================================================

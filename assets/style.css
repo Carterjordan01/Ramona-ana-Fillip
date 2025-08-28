@@ -251,17 +251,20 @@ label {
   padding: 0 12rem;
 }
 
+/* Animation d'apparition pour le préchargement */
 .se-pre-con {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 999999;
-  background: url(img/logo/logo2.gif) center no-repeat var(--clr-white);
-  text-align: center;
+  animation: fadeOutPreloader 1.5s ease 1s forwards;
+  /* 1s de délai, 1.5s de durée, disparaît après */
+  opacity: 1;
 }
 
+@keyframes fadeOutPreloader {
+  to {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
 .h-100 {
   height: 100%;
 }
