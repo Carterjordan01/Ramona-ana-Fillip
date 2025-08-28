@@ -158,9 +158,24 @@ p {
   .navbar-nav .nav-link {
     padding-top: 8px;
     padding-bottom: 8px;
-    font-size: 2.2rem !important;
+    font-size: 3.2rem !important;
   }
 }
+
+ /* Augmente la taille de police des liens du menu pour tous les écrans */
+        .header-2 .navbar-nav .nav-link {
+            font-size: 2.25rem !important;
+        }
+        @media (max-width: 991.98px) {
+            .header-2 .navbar-nav .nav-link {
+                font-size: 3.3rem !important;
+            }
+        }
+        @media (max-width: 575.98px) {
+            .header-2 .navbar-nav .nav-link {
+                font-size: 3.1rem !important;
+            }
+        }
     
 .img,
 img {
